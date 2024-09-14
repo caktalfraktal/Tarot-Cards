@@ -83,7 +83,7 @@ def draw_celtic_cross(canvas_frame, text_box):
     # Define the traditional Celtic Cross position names with card numbers
     positional_names = [
         "Present Situation (1)",
-        "Challenges/Influences (2)",
+        "Challenges or Influences (2)",
         "Distant Past (3)",
         "Recent Past (4)",
         "Best Outcome (5)",
