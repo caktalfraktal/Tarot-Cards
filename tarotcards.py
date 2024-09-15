@@ -259,7 +259,7 @@ def setup_main_gui(root, spread_type=None):
     scrollbar = tk.Scrollbar(text_frame, orient="vertical", command=text_box.yview)
     scrollbar.grid(row=0, column=1, sticky="ns")
     text_box.config(yscrollcommand=scrollbar.set)
-    text_box.config(state="disabled")
+    text_box.config(state="normal")
     buttons_frame = tk.Frame(right_frame)
     buttons_frame.grid(row=1, column=0, padx=5, pady=(5, 10), sticky="n")
     draw_one_card_button = tk.Button(
